@@ -68,12 +68,23 @@ em {
     margin-top: 0%;
     padding: 3% 1%;
 }
+.cajitanegra:hover {
+    border-radius: 10px;
+    background-color: purple;
+}
 span{
 	color:#F7BA6A ;
+    font-weight: bold;
 }
 .img {
 	width: 100%;
 	margin-bottom: 5%;
+     opacity: 1;
+    -moz-transition: all 0.5s ease 0s;
+
+}
+.img:hover {
+    opacity: 0.7;
 }
 .uno {
 	float: right;
@@ -101,7 +112,25 @@ span{
 }
 .flor {
 	width: 100%;
+     transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+
 }
+.flor:hover {
+    transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+
 .flor1 {
 	width: 105%;
 	margin-top: 1%;
@@ -183,7 +212,7 @@ footer {
 .ultima {
 	padding: 3%;
 }
-@media screen and (max-width : 920px) {
+@media screen and (max-width : 950px) {
     .container{
         width: 100%;
     }
@@ -193,7 +222,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 940px) {
     .container{
         width: 100%;
     }
